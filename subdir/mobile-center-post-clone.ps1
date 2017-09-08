@@ -2,4 +2,6 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-Write-Host "variables $env:username $env:password"
+if ($env:password -eq "123") {
+  Write-Host "variables $env:username $env:password"
+}
