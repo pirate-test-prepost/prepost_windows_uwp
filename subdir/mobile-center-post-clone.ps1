@@ -2,4 +2,4 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-Write-Host "variables $username $password"
+Write-Host "variables $env:username $env:password"
